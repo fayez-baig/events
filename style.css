@@ -1,0 +1,113 @@
+marquee{
+    width: 100%;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.w-100{
+    height: 60% !important;
+}
+
+.img{
+    height: 15%;
+    width: 15%;
+    margin: 35px;
+    cursor: pointer;
+    border-radius: 80%;
+}   
+.h2{
+    margin-top: 50px;;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.h2::after{
+    display:block;
+    height: 2px;
+    background-color: orange;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/* .responsive {
+    width: 100%;
+    height: auto;
+
+    put in media query
+  } */
+
+  .form-row{
+    margin: 0;
+    padding-left: 300px !important;
+
+    /* media query set margin and padding to 0 */
+  }
+
+  .button{
+    margin-left: 300px !important;
+    /* media query set margin and padding to 0 */
+  }
+
+  .footer{
+      background-color: black;
+      color: white;
+      padding: 10px;
+
+  }
+
+  .text-center{
+      text-align: center;
+      width: 100%;
+  }
+
+  .modal-content{
+      background-color:black;
+  }
+
+  .modal-header ,.close{
+    color: white;
+  }
+.close:hover{
+    color: white;;
+}
+
+.lab{
+    color: white;
+}
+
+
+@media screen and (width: 768px){
+    .form-row{
+        margin: 0;
+        padding-left: 150px !important;
+      }
+
+      .button{
+        margin-left: 150px !important;
+      }
+
+      .responsive {
+        width: 40%;
+        height: auto;
+}
+}
+
+@media screen and (max-width: 428px){
+    .form-row{
+        margin: 0;
+        padding-left: 0px !important;
+      }
+
+      .button{
+        margin-left: 0px !important;
+      }
+
+      .responsive {
+        width: 40%;
+        height: auto;
+}
+}
+
